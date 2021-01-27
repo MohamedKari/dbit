@@ -5,7 +5,7 @@ class Product:
     print("Product instantiated!")
     self.name = name
     self.tax_rate = tax_rate
-    self.net_price = net_priceiiwe
+    self.net_price = net_price
 
   def compute_gross_price(self):
     return round(self.tax_rate * self.net_price, 2)
