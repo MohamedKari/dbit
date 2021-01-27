@@ -13,3 +13,6 @@ class Product:
   def describe(self):
     print("This product is a", self.name, " of net price", 
           self.net_price, "with tax rate", self.tax_rate)
+
+p1 = Product("Yoghurt", 1.07, 0.56)
+p1.compute_gross_price()
